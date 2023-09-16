@@ -1,0 +1,153 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #0493da !important;
+}
+
+.search{
+    margin-bottom: auto;
+    margin-top: 0px;
+    height: 70px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.search-input{
+
+    color: white;
+    border:0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top:5px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+
+}
+
+.search .search-input{
+    padding: 0 10px;
+    width: 550px;
+    caret-color: #536bf6;
+    font-size: 21px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+    
+}
+
+.search:hover>.search-icon{
+    background: rgba(0,194,238,255);
+    color:#fff;
+}
+.search-icon{
+
+        height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,194,238,255);
+
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    background-color: rgba(0,194,238,255);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 10px;
+    transition: all 0.4s ease;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button:hover{
+    background-color: #ffd157;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+
+div, .tdiv {
+    margin-top: 130px;
+    margin-bottom: 0%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+img {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    z-index: -100;
+    position: absolute;
+    top: 40px;
+    left: 287px;
+    bottom: 190px;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    top: 12px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    
+  }
+  
+.loading {
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  
+.error {
+    color: red;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+
+.custom-footer {
+    background-color: #0493da;
+}
+.custom-footer p {
+    font-size: 23px; /* Adjust the font size as needed */
+}
+
+@media only screen and (min-width: 707.20px) and (max-width: 1126.40px) {
+    img {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        width: 64%;
+        z-index: -100;
+        position: absolute;
+        top: 100px;
+        left: 205px;
+        bottom: 190px;
+    }
+}
